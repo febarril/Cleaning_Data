@@ -12,11 +12,13 @@ Creates a second, independent tidy data set with the average of each variable fo
 
 Instructions:
 
-- Clone this repository and download the dataset
+- Clone this repository (git clone https://github.com/fbarrillot/Cleaning_Data.git) 
+- Cleaning_data contains the HCI HAR Dataset that includes the data sets
 - Measurements are in X_train.txt and X_test.txt
 - Subject info is in subject_train.txt and subject_test.txt
 - Activities are present in y_train.txt and y_test.txt
-- setwd("path_to_your_downloaded_folder/UCI HAR Dataset") Set current directory to the UCI HAR Dataset.
+
+- setwd("./UCI HAR Dataset") Set current directory to the UCI HAR Dataset.
 - Run the script called run_analysis.R > source("run_analysis.R")
 - You will get a tidy data set called dataset_averages.txt in your working directory
 - the columns are renamed to contain the mean and std
